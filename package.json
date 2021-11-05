@@ -1,0 +1,23 @@
+{
+  "name": "search-table-server",
+  "version": "0.0.0",
+  "description": "SearchTableComponent NestJS Library",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^8.1.2",
+    "@types/node": "^16.11.6",
+    "mongoose": "^6.0.12",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.4.0",
+    "typescript": "^4.4.4"
+  }
+}
