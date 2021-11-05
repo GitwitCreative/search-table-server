@@ -1,5 +1,5 @@
 {
-  "name": "search-table-server",
+  "name": "@gitwitcreative/search-table-server",
   "version": "0.0.0",
   "description": "SearchTableComponent NestJS Library",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "prepublish": "npm run build"
   },
   "publishConfig": {
-	"name": "@gitwitcreative/search-table-server"
+	"@gitwitcreative:registry":"https://npm.pkg.github.com"
   },
   "author": "Sergei Golimbievsky",
   "license": "ISC",
